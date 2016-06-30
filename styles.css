@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%; /* == 10px */
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+h1 {
+  font-size: 3rem; /* == 30px */
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+img {
+  /*max-width: 100%;*/
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: block;
+  font-size: 1.6rem;
+  height: 300px;
+  width: 300px;
+}
+
+.red {
+  background: red;
+  order: 1;
+}
+
+.green {
+  background: green;
+  order: 3;
+}
+
+.blue {
+  background: orange;
+  order: 2;
+}
+
+.box {
+  height: 15rem;
+  /*overflow: hidden;*/
+  width: 15rem;
+}

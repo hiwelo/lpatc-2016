@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%; /* == 10px */
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+  margin: 5rem;
+}
+
+.one {
+  background: red;
+  min-width: 15rem;
+  max-width: 11rem;
+}
+
+@media screen and (-moz-images-in-menus:0) {
+  .one {
+    background: black;
+  }
+}
+
+.two {
+  background: green;
+  max-width: 8rem;
+}
+
+.three {
+  background: blue;
+}
+
+.four {
+  background: orange;
+  flex-basis: 10rem;
+}
+
+.five {
+  background: grey;
+  flex-basis: 15rem;
+}
+
+.six {
+  background: aqua;
+  flex-basis: 12rem;
+  max-width: 10rem;
+}
+
+.seven {
+  background: olive;
+  flex-basis: 12rem;
+  min-width: 21rem;
+}
+
+.flex {
+  display: flex;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  color: red;
+}
